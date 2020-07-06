@@ -1,6 +1,5 @@
 <template>
     <div>
-        <p>app pc</p>
         <router-view/>
     </div>
 </template>

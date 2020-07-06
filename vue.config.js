@@ -22,4 +22,8 @@ module.exports = {
             cacheGroups: {}
         });
     },
+    devServer: {
+        open: true,
+        proxy: 'https://kefusystemfront.ccggww.me/',
+    },
 }

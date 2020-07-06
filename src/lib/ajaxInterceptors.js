@@ -5,7 +5,7 @@ export default function() {
         return request
     })
     axios.interceptors.response.use(function (response) {
-        return response
+        return response.data
     }, error => {
         return error
     })

@@ -1,8 +1,13 @@
 export default [
     {
-        path: `/Home`,
+        path: `/home`,
         name: 'home',
         component: () => import(/* webpackChunkName: "mobile-home" */`../views/home/Home_mobile`)
+    },
+    {
+        path: `/login`,
+        name: 'login',
+        component: () => import(/* webpackChunkName: "mobile-home" */`../views/login/Login_mobile`)
     }
 ]
 

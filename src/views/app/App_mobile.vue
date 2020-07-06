@@ -1,10 +1,5 @@
 <template>
     <div>
-        <div flex>
-            <p>app mobile</p>
-            <span></span>
-        </div>
-        
         <router-view/>
     </div>
 </template>

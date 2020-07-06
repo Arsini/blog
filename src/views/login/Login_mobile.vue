@@ -1,5 +1,6 @@
 <template>
     <div>
+        <img :src="validCode" alt="">
     </div>
 </template>
 
