@@ -15,7 +15,9 @@ module.exports = {
             chunks: ['mobile']
         }
     },
-    chainWebpack: (config) => {
+    chainWebpack: config => {
+        config.plugins.delete(`prefetch-pc`);
+        config.plugins.delete(`prefetch-mobile`);
         config.optimization.splitChunks({
             cacheGroups: {}
         });

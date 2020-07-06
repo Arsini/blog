@@ -1,6 +1,6 @@
 import Vue from 'vue'
 import App from './views_mobile/App.vue'
-import { mobile } from './router'
+import { mobile as router } from './router'
 import store from './store'
 import { Button } from 'vant';
 Vue.use(Button);
@@ -8,7 +8,7 @@ Vue.use(Button);
 Vue.config.productionTip = false
 
 new Vue({
-  router: mobile,
+  router,
   store,
   render: h => h(App)
 }).$mount('#app')
