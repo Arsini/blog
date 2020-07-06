@@ -2,7 +2,7 @@ export default [
     {
         path: `/Home`,
         name: 'home',
-        component: () => import(/* webpackChunkName: "mobile-home" */`../views_mobile/Home`)
+        component: () => import(/* webpackChunkName: "mobile-home" */`../views/home/Home_mobile`)
     }
 ]
 

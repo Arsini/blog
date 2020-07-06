@@ -1,5 +1,5 @@
 import Vue from 'vue'
-import App from './views_mobile/App.vue'
+import App from './views/app/App_mobile.vue'
 import { mobile as router } from './router'
 import store from './store'
 import { Button } from 'vant';
