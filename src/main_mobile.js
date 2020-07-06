@@ -1,3 +1,6 @@
+import '@/style/reset.css'
+import 'flex.css'
+import '@/lib/rem'
 import Vue from 'vue'
 import App from './views/app/App_mobile.vue'
 import { mobile as router } from './router'
