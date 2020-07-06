@@ -7,7 +7,7 @@ export default [
     {
         path: `/login`,
         name: 'login',
-        component: () => import(/* webpackChunkName: "mobile-home" */`../views/login/Login_mobile`)
+        component: () => import(/* webpackChunkName: "mobile-login" */`../views/login/Login_mobile`)
     }
 ]
 
