@@ -1,4 +1,4 @@
-# service
+# 注意：此工程使用 mixin 方式，为pc端与移动端的 model层 和 vm层的数据共享
 
 ## Project setup
 ```
