@@ -1,7 +1,9 @@
 <template>
     <div>
-        pc home
-        <el-button type="primary" @click="aaa">主要按钮</el-button>
+        <!-- <el-button type="primary" @click="aaa">主要按钮</el-button> -->
+        <ul>
+            <li v-for="n in 100" :key="n">{{ n }}</li>
+        </ul>
     </div>
 </template>
 

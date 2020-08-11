@@ -1,4 +1,5 @@
 import '@/style/reset.css'
+import '@/style/common.css'
 import 'flex.css'
 import Vue from 'vue'
 import store from './store'
