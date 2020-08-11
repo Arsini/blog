@@ -26,6 +26,5 @@ module.exports = {
     },
     devServer: {
         open: true,
-        proxy: 'https://kefusystemfront.ccggww.me/',
     },
 }

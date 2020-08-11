@@ -1,3 +1,4 @@
+//高阶组件（没有用上）
 export default (Comp) => ({
     components: {
         Comp,
