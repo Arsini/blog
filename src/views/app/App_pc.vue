@@ -1,17 +1,17 @@
 <template>
-    <div id="root" flex>
-        <Sidebar class="scrollbar"/>
+    <div id="root" flex='dir:top'>
+        <PageHeader flex-box='0'/>
         <section class="scrollbar" flex-box='1'>
-            <router-view />
+            <router-view class="page_view"/>
         </section>
     </div>
 </template>
 
 <script>
-    import Sidebar from '@/components/Sidebar'
+    import PageHeader from '@/components/header/Header_pc'
     export default {
         components:{
-            Sidebar
+            PageHeader
         },
     }
 </script>
@@ -23,6 +23,10 @@
 <style lang="postcss" scoped>
     #root{
         height: 100%;
+        background-image: url(~@/img/bg.png);
+        background-position: top center;
     }
-    
+    .page_view{
+        min-height: 100%;
+    }
 </style>

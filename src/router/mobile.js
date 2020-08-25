@@ -5,10 +5,15 @@ export default [
         component: () => import(/* webpackChunkName: "mobile-home" */`../views/home/Home_mobile`)
     },
     {
+        path: `/word`,
+        name: 'word',
+        component: () => import(/* webpackChunkName: "mobile-word" */`../views/word/Word_mobile`)
+    },
+    {
         path: `/login`,
         name: 'login',
         component: () => import(/* webpackChunkName: "mobile-login" */`../views/login/Login_mobile`)
-    }
+    },
 ]
 
 //() => import(/* webpackChunkName: "[request]" */`../views_pc/${name}`)

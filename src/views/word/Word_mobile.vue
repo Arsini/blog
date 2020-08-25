@@ -1,6 +1,5 @@
 <template>
-    <div class="home">
-        <a href="/#/word" target="_blank">word</a>
+    <div>
     </div>
 </template>
 
@@ -12,4 +11,5 @@
 </script>
 
 <style lang="postcss" scoped>
+
 </style>
