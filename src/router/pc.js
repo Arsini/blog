@@ -13,6 +13,11 @@ export default [
         path: `/login`,
         name: 'login',
         component: () => import(/* webpackChunkName: "pc-login" */`../views/login/Login_pc`)
+    },
+    {
+        path: `/pan`,
+        name: 'pan',
+        component: () => import(/* webpackChunkName: "pc-pan" */`../views/pan/pan_pc`)
     }
 ]
 

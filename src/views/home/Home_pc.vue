@@ -1,7 +1,8 @@
 <template>
-    <div class="home">
-        <a href="/#/word" target="_blank">word</a>
-        <p @click="$mainStore.changeText">{{ $mainStore.text }}</p>
+    <div>
+        <ul flex>
+            <router-link to="/pan" class="nav_box">上传下载</router-link>
+        </ul>
     </div>
 </template>
 
@@ -13,4 +14,11 @@
 </script>
 
 <style lang="postcss" scoped>
+.nav_box{
+    width: 300px;
+    height: 300px;
+    background-color: #fff;
+    cursor: pointer;
+    margin: 20px;
+}
 </style>

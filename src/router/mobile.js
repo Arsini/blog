@@ -14,6 +14,11 @@ export default [
         name: 'login',
         component: () => import(/* webpackChunkName: "mobile-login" */`../views/login/Login_mobile`)
     },
+    {
+        path: `/pan`,
+        name: 'pan',
+        component: () => import(/* webpackChunkName: "mobile-pan" */`../views/pan/pan_mobile`)
+    }
 ]
 
 //() => import(/* webpackChunkName: "[request]" */`../views_pc/${name}`)
