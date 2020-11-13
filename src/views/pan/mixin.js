@@ -24,10 +24,15 @@ export default {
                 this.loading = false
             })
         },
-        del(){
-            this.$http.get('/pan/delete').then(() => {
-                this.getFiles()
+        del(fileName, folder){
+            this.loading = true
+            this.$http.get(`/pan/delete?fileName=${fileName}&folder=${folder}`).then(res => {
+                this.files = res.list
+                this.loading = false
             })
+        },
+        downFile(name){
+            window.open(`/pan/download?fileName=${name}`)
         }
     }
 }

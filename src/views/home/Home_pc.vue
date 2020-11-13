@@ -1,7 +1,13 @@
 <template>
     <div>
         <ul flex>
-            <router-link to="/pan" class="nav_box">上传下载</router-link>
+            <router-link 
+                v-for="item in nav" 
+                :key="item.path" 
+                :to="item.path" 
+                class="nav_box"
+                tag="li"
+            >{{ item.name }}</router-link>
         </ul>
     </div>
 </template>

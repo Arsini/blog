@@ -18,7 +18,12 @@ export default [
         path: `/pan`,
         name: 'pan',
         component: () => import(/* webpackChunkName: "pc-pan" */`../views/pan/pan_pc`)
-    }
+    },
+    {
+        path: `/video`,
+        name: 'video',
+        component: () => import(/* webpackChunkName: "pc-video" */`../views/video/video_pc`)
+    },
 ]
 
 //() => import(/* webpackChunkName: "[request]" */`../views_pc/${name}`)
