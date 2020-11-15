@@ -26,7 +26,7 @@
                     <!-- <a :href="`/pan/download?fileName=${scope.row.name}`" target="_blank">下载</a> -->
                     <el-button
                     size="mini"
-                    @click="downFile(scope.row.name)">下载</el-button>
+                    @click="downFile(scope.row.name, scope.row.folder)">下载</el-button>
                     <el-button
                     size="mini"
                     type="danger"

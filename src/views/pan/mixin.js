@@ -31,8 +31,8 @@ export default {
                 this.loading = false
             })
         },
-        downFile(name){
-            window.open(`/pan/download?fileName=${name}`)
+        downFile(fileName, folder){
+            window.open(`/pan/download?fileName=${fileName}&folder=${folder}`)
         }
     }
 }

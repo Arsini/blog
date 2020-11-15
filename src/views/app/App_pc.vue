@@ -28,6 +28,5 @@
     }
     .page_view{
         min-height: 100%;
-        background-color: #fff;
     }
 </style>
